@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 
 export default function SearchBox({ updateInfo }) {
   const API_URL = "https://api.openweathermap.org/data/2.5/weather?";
-  const api_Key = "3b3964cb12127a3c335388d105bca414";
+  const api_Key = "//GET YOUR API KEY HERE";//3b3964cb12127a3c335388d105bca414
 
   const [city, setCity] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
